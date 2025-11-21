@@ -4,10 +4,10 @@ import { HeuristicaMalo } from './components/heuristica-malo/heuristica-malo';
 import { HeuristicaBueno } from './components/heuristica-bueno/heuristica-bueno';
 
 @Component({
-  selector: 'app-consistencia-estandares',
-  imports: [HeaderHeuristica, HeuristicaBueno, HeuristicaMalo],
-  templateUrl: './consistencia-estandares.html',
-  styleUrl: './consistencia-estandares.css',
+  selector: 'app-diseno-estetico-minimalista',
+  imports: [HeaderHeuristica,HeuristicaMalo,HeuristicaBueno],
+  templateUrl: './diseno-estetico-minimalista.html',
+  styleUrl: './diseno-estetico-minimalista.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ConsistenciaEstandares { }
+export class DisenoEsteticoMinimalista { }

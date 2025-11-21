@@ -4,10 +4,10 @@ import { HeuristicaMalo } from './components/heuristica-malo/heuristica-malo';
 import { HeuristicaBueno } from './components/heuristica-bueno/heuristica-bueno';
 
 @Component({
-  selector: 'app-consistencia-estandares',
-  imports: [HeaderHeuristica, HeuristicaBueno, HeuristicaMalo],
-  templateUrl: './consistencia-estandares.html',
-  styleUrl: './consistencia-estandares.css',
+  selector: 'app-ayuda-documentacion',
+  imports: [HeaderHeuristica, HeuristicaMalo, HeuristicaBueno],
+  templateUrl: './ayuda-documentacion.html',
+  styleUrl: './ayuda-documentacion.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ConsistenciaEstandares { }
+export class AyudaDocumentacion { }
